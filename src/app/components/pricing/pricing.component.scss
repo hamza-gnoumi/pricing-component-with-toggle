@@ -1,0 +1,84 @@
+.option {
+  margin-top: 20px;
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+
+}
+
+@media (min-width: 992px) {
+  .option {
+    width: 351px;
+  }
+}
+
+h3 {
+  margin: 0;
+  color: var(--Dark-Grayish-Blue);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 20px;
+  border-bottom: 1px solid var(--Light-Grayish-Blue);
+  color: var(--Grayish-Blue);
+
+}
+
+.price {
+  font-size: 4rem;
+  color: var(--Dark-Grayish-Blue);
+}
+
+.option a {
+  background-image: var(--Linear-Gradient);
+  border-color: transparent;
+  letter-spacing: 1.8px;
+  width: 100%;
+  color: white;
+
+}
+
+.option a:hover {
+  background-image: none;
+  color: var(--our-blue);
+  border-color: var(--our-blue);
+}
+
+@media (min-width: 992px) {
+  .special {
+    transform: scale(1.1);
+
+  }
+}
+
+.special {
+  background-image: var(--Linear-Gradient);
+}
+
+.special h3 {
+  color: white;
+}
+
+.special li {
+  color: white;
+}
+
+.special a {
+  background-color: white;
+  color: var(--our-blue);
+  border-color: transparent;
+  background-image: none;
+
+}
+
+.special a:hover {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}

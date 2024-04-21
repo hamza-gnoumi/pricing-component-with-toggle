@@ -1,0 +1,13 @@
+<div class="option " [ngClass]="doit">
+  <span></span>
+  <h3>{{option.title}}</h3>
+
+  <ul>
+    <li class="price">{{ type==='month'?'$'+option.priceMonth:'$'+option.priceYear}}</li>
+    <li>{{option.storage}}</li>
+    <li>{{option.users}}</li>
+    <li>{{option.send}}</li>
+    <a class="btn  mt-5 px-5 py-3 text-uppercase">Learn More</a>
+  </ul>
+
+</div>
